@@ -1,0 +1,63 @@
+h3 {
+  font-size: 2.5rem;
+  color: #474747;
+}
+@media all and (min-width: 768px) {
+  h3 {
+    font-size: 2.3rem;
+  }
+}
+@media all and (min-width: 992px) {
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
+.accordion {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.element-content {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  font-size: 2.4rem;
+}
+@media all and (min-width: 768px) {
+  .element-content {
+    font-size: 2rem;
+  }
+}
+@media all and (min-width: 992px) {
+  .element-content {
+    font-size: 1.2rem;
+  }
+}
+
+.element-content .title {
+  color: #474747;
+}
+
+.accordion button {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-rotated {
+  transform: rotate(180deg);
+  transition: transform 0.2s;
+}
+
+.icon {
+  transition: transform 0.2s;
+}
+
+.content-hidden {
+  display: none;
+}/*# sourceMappingURL=accordion.css.map */
